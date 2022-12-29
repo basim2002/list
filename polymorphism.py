@@ -36,14 +36,30 @@
 # s.show()
 
 # encapsulation
-class fruit:
-    def __init__(self):
-        self.__a =5
+# class fruit:
+#     def __init__(self):
+#         self.__a =5
+#
+# class veg(fruit)  :
+#     def __init__(self):
+#         self.b=3
+#         fruit.__init__(self)
+#         self.__b=4
+# s=veg()
+# print(s._fruit__a)
 
-class veg(fruit)  :
-    def __init__(self):
-        self.b=3
-        fruit.__init__(self)
-        self.__b=4
-s=veg()
-print(s._fruit__a)
+# operator overloading
+# class prize:
+#     def __init__(self,a,b):
+#         self.a=a
+#         self.b=b
+#     def __sub__(self, other):
+#         a=self.a-other.a
+#         b=self.b-other.b
+#         s=prize(a,b)
+#         return s
+# c=prize(20,10)
+# d=prize(15,25)
+# s=c-d
+#
+# print(s.b)
