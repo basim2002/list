@@ -10,7 +10,7 @@ print(list1[0:8:3])#skipping the middile ones based on the third value we set
 list1[1:4]=["basim","aslam","a"]#changing what we set with the list line
 print(list1)
 
-list1.insert(2,"hi")#inset to list line
+list1.insert(2,"hi")#insert to list line
 print(list1)
 
 list1.append("word")#to add
